@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <title> Porter</title>
+<link rel="shortcut icon" href="/favicon.ico" />
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"50bfe79410","applicationID":"7371872","transactionName":"c1gMREYJXllWS0wKR1RSEEMbAVdBbEoOFmpUUhZRXQpB","queueTime":0,"applicationTime":11,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(e,n){return function(){o(e,[(new Date).getTime()].concat(a(arguments)),null,n)}}var o=e("handle"),i=e(2),a=e(3);"undefined"==typeof window.newrelic&&(newrelic=NREUM);var c=["setPageViewName","setCustomAttribute","finished","addToTrace","inlineHit"],u=["addPageAction"],f="api-";i(c,function(e,n){newrelic[n]=r(f+n,"api")}),i(u,function(e,n){newrelic[n]=r(f+n)}),n.exports=newrelic,newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),o("err",[e,(new Date).getTime()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(0>o?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?c(e,a,i):i()}function t(t,r,o){e&&e(t,r,o);for(var i=n(o),a=l(t),c=a.length,u=0;c>u;u++)a[u].apply(i,r);var s=f[m[t]];return s&&s.push([w,t,r,i]),i}function p(e,n){g[e]=l(e).concat(n)}function l(e){return g[e]||[]}function d(e){return s[e]=s[e]||o(t)}function v(e,n){u(e,function(e,t){n=n||"feature",m[t]=n,n in f||(f[n]=[])})}var g={},m={},w={on:p,emit:t,get:d,listeners:l,context:n,buffer:v};return w}function i(){return new r}var a="nr@context",c=e("gos"),u=e(2),f={},s={},p=n.exports=o();p.backlog=f},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!b++){var e=y.info=NREUM.info,n=s.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&n){u(m,function(n,t){e[n]||(e[n]=t)});var t="https"===g.split(":")[0]||e.sslForHttp;y.proto=t?"https://":"http://",c("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=y.proto+e.agent,n.parentNode.insertBefore(r,n)}}}function o(){"complete"===s.readyState&&i()}function i(){c("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var c=e("handle"),u=e(2),f=window,s=f.document,p="addEventListener",l="attachEvent",d=f.XMLHttpRequest,v=d&&d.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:d,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},e(1);var g=""+location,m={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-952.min.js"},w=d&&v&&v[p]&&!/CriOS/.test(navigator.userAgent),y=n.exports={offset:a(),origin:g,features:{},xhrWrappable:w};s[p]?(s[p]("DOMContentLoaded",i,!1),f[p]("load",r,!1)):(s[l]("onreadystatechange",o),f[l]("onload",r)),c("mark",["firstbyte",a()],null,"api");var b=0},{}]},{},["loader"]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- SEO -->
+	<meta name='keywords' content='Mini-truck, mini-truck truck, tata Ace, Tata 407, Super Ace, Canter, truck rental, truck hire,  trailer, load, transport, transport service, transport companies, transportation, fleet exchange, logistic, logistics, 3PL, 3 PL, third party logistics, fulfillment, delivery, deliveries, book a truck, hire, hire truck, hire mini-truck, hire mini truck, Bangalore, Hyderabad, Chennai, Delhi, Delhi NCR, first mile, last mile, book, book truck, goods, goods delivery, book tempo, rent truck, rent, move, relocation'>
+
+	<meta name="description" content="Porter with operations in  Mumbai, Bangalore, Delhi, Hyderabad, Chennai is a revolutionary approach that makes intra-city transport of goods thoroughly efficient and reliable. Our fleet includes Tata Ace, Tata SuperAce, Mahindra Pik-up, Eeco, Tata 407, Eicher Canter.
+	       We use GPS to track our partner drivers, ensuring that a mini-truck that exactly satisfies the business requirement is made available to them, within 45 minutes. We intend to give structure to this largely unprofessional and unregulated industry. ">
+<meta name="robots" content="index,follow">
+<meta name="googlebot" content="index,follow">
+<meta name="author" content="theporter.in/developers">
+<!-- Open Graph Tags -->
+<meta property="og:title" content="PORTER"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://theporter.in"/>
+<meta property="og:image" content=""/>
+<meta property="fb:admins" content="100000003580960"/>
+<meta property="og:description" content="ThePorter is a revolutionary approach that makes intra-city pickups and deliveries thoroughly efficient and reliable. We have a varied fleet of vehicles under our command, ranging from Tata Ace to Tata 909, spread all over Mumbai."/>
+<!-- Twitter Cards -->
+<meta name=”twitter:card” content=”summary”>
+<meta name=”twitter:url” content=”https://theporter.in”>
+<meta name=”twitter:title” content=”ThePorter | good for goods”>
+<meta name=”twitter:description” content=”ThePorter is a revolutionary approach that makes intra-city pickups and deliveries thoroughly efficient and reliable. We have a varied fleet of vehicles under our command, ranging from Tata Ace to Tata 909, spread all over Mumbai.”>
+<meta name=”twitter:image” content=””>
+<!-- Javascript disable check -->
+<noscript>
+  <style>html{display:none}</style>
+</noscript>
+<!-- SEO -->
+
+
+  <script defer="defer" src="https://d3o1t8vp7n8wsg.cloudfront.net/assets/typekit-b414d8777a92fbe4981ab3c1dcfbf5ad0066d00695e71d5c05d9f658663ecd80.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <script>
+    pageType = "" ;
+  </script>
+  <script src="https://code.jquery.com/jquery-1.12.3.min.js"   
+    integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ="   
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link data-turbolinks-track="true" href="https://d3o1t8vp7n8wsg.cloudfront.net/assets/application-fb5dce11845f8b80a796f727dba644fb230b0fb8cea30d910d540c1f1fa3d8ad.css" media="all" rel="stylesheet" />
+     <!-- pages controller and its actions -->
+
+
+
+ <!-- administrators controller and its actions -->
+
+
+
+
+ <!-- orders controller and its actions -->
+
+ <!-- vendor_monthly_payments controller and its actions -->
+
+
+  <style>
+.shape {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background: #3270D8;
+    float: left;
+    width: 100%;
+}
+
+#header-triangle-wrapper {
+    position: absolute;
+    background: #3270D8;
+    height: 50vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 50%, 0 100%);
+}
+
+.header-contents {
+    margin-left: 4vw;
+    margin-top: 4.933vh;
+    color: white;
+    display: inline-block;
+    width: 96vw;
+}
+
+.header-contents > * {
+    display: inline-block;
+    padding-right: 2.67vw;
+}
+
+header a > span {
+    color: white;
+    font-family: proxima-nova;
+    font-size: 1.17vw;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+header {
+    width: 100vw;
+    height: auto;
+}
+
+#mobile-nav-menu .modal-body {
+    margin-top: 0px;
+}
+
+#mobile-nav-menu .modal-dialog {
+    margin: 0 0 0 0;
+    height: 100vh;
+    width: auto;
+    background-color: rgba(29, 29, 29, 0.9);
+}
+
+#mobile-nav-menu .modal-content {
+    height: 100vh;
+    min-width: 86%;
+    width: 86vw;
+    margin-left: 0px;
+    border-radius: 0px;
+}
+
+#mobile-nav-menu a {
+    display: block;
+    text-align: center;
+    color: black;
+}
+
+#mobile-nav-menu #mobile_menu_icon {
+    margin-bottom: 8.66667vh;
+    margin-top: 5.944444vh;
+}
+
+.navbar-line {
+    width: 96%;
+    margin-left: 2.605863%;
+    margin-right: 2.605863%;
+    color: #C6C6C6;
+    border-color: #C6C6C6;
+    margin-top: 2.1875vh;
+    margin-bottom: 2.1875vh;
+    font-size: 3.88889vw;
+}
+
+@media handheld, (orientation: landscape) {
+  #porter-logo-img img {
+    height: 5vh;
+  }
+
+  #customer-care-icon {
+    margin-top: -5vh;
+  }
+
+  #customer-care-icon img {
+    height: 5vh;
+  }
+
+  #hamburger_menu {
+    height: 4vh;
+  }
+
+  .order {
+    padding-top: 2.5vh;
+  }
+}
+
+@media handheld, (orientation: portrait) {
+  #porter-logo-img img {
+      height: 3.75vh;
+  }
+
+  #customer-care-icon {
+    margin-top: -3.75vh;
+  }
+
+  #customer-care-icon img {
+    width: 5.55555vw;
+  }
+}
+
+
+@media handheld, (max-width: 768px), (orientation: portrait) {
+  .header-contents {
+      margin-left: 0;
+      width: 100%;
+  }
+
+  .header-contents > * {
+      padding-right: 0px;
+  }
+
+  #hamburger_menu {
+      display: block !important;
+      float: left;
+      margin-left: 4.4444vw;
+      margin-top: 0.6vh;
+  }
+
+  #porter-logo-img {
+      display: block;
+      text-align: center;
+  }
+
+  #porter-logo-img img {
+      width: auto !important;
+      margin-left: -9.99999vw;
+  }
+
+  .porter-logo-text {
+      display: none;
+  }
+
+  #customer-care-icon {
+      display: block !important;
+      float: right;
+      margin-right: 4.44444vw;
+  }
+
+  #close-mobile-menu {
+      display: inline-block;
+      float: right;
+      margin-right: 4%;
+      margin-top: 3.75vh;
+  }
+
+  .right-elements {
+      display: none;
+  }
+
+  .customer-care {
+    display: none;
+  }
+}
+
+  .header-contents > .porter-logo-text {
+      font-size: 1.5vw;
+      font-weight: 300;
+      vertical-align: -5px;
+  }
+
+  #hamburger_menu {
+      display: none;
+  }
+
+  #customer-care-icon {
+      display: none;
+  }
+
+  .customer-care-span {
+      font-size: 22px;
+      font-weight: 600;
+      margin: 0px;
+      padding: 0px;
+      line-height: 10px;
+      padding-top: 5px;
+  }
+
+  .customer-care-std-span {
+      display: block;
+      padding: 0px;
+      margin: 0px;
+      font-size: 0.95vw;
+      font-weight: 400;
+  }
+
+  .customer-care {
+      padding-left: 0px;
+      width: 150px;
+      float:right;
+      margin-right: 0px;
+      padding: 0px;
+      margin-left: 5px;
+  }
+
+  .right-elements {
+      float: right;
+      padding-right: 0px;
+      padding: 0px;
+  }
+
+  .right-elements > * {
+      display: inline-block;
+      padding-left: 2.67vw;
+  }
+
+  .right-elements > a > span {
+      padding-left: 0.5vw;
+  }
+
+</style>
+<input id="geo_region_std" name="geo_region_std" type="hidden" value="null" />
+<header>
+  <div style='width:100%; overflow:hidden;'>
+    <div class='header-contents'>
+      <img alt="Hamburger icon b365dc5bcdaf5e71bd8ca41f9e85122c0c03e86b5c7e88b5ae23115c14426d97" id="hamburger_menu" src="https://d3o1t8vp7n8wsg.cloudfront.net/assets/hamburger_icon-b365dc5bcdaf5e71bd8ca41f9e85122c0c03e86b5c7e88b5ae23115c14426d97.svg" style="width: 5.5555vw;" />
+      <div id='porter-logo-img'>
+        <a href="/"><img alt="Porter logo 5bd111f3029e62c9fba861f19a59211558dce72ccfaafb07432138f1521bcc1e" src="https://d3o1t8vp7n8wsg.cloudfront.net/assets/porter_logo-5bd111f3029e62c9fba861f19a59211558dce72ccfaafb07432138f1521bcc1e.svg" style="width: 12.83vw" /></a>
+      </div>
+        <p class="porter-logo-text">Trucks for Every Need</p>
+        <div class='customer-care'>
+          <p class="customer-care-span">4410 4410</p>
+          <p class="customer-care-std-span">add your std code</p>
+        </div>
+        <div class='right-elements'>
+          <a href="/app"><img alt="Mobile 20952291d06af51c36acacd873002b213e1eb7ee44cf36dd6b2d2625ef323b14" height="22" src="https://d3o1t8vp7n8wsg.cloudfront.net/assets/mobile-20952291d06af51c36acacd873002b213e1eb7ee44cf36dd6b2d2625ef323b14.svg" width="22" /><span>DOWNLOAD APP</span></a>
+          <a href="/track_order"><span>TRACK ORDER</span></a>
+          <p><img alt="Call icon f5c30bb39f07c3ebad9d5760fc104ffc5e582b0a614f17c23c11cfbe5500c285" height="32" src="https://d3o1t8vp7n8wsg.cloudfront.net/assets/call_icon-f5c30bb39f07c3ebad9d5760fc104ffc5e582b0a614f17c23c11cfbe5500c285.svg" style="width: 30px; height: 30px;" width="32" /></p>
+        </div>
+      <a href="tel:022-4410-4410" id="customer-care-icon"><img alt="Call icon f5c30bb39f07c3ebad9d5760fc104ffc5e582b0a614f17c23c11cfbe5500c285" height="22" src="https://d3o1t8vp7n8wsg.cloudfront.net/assets/call_icon-f5c30bb39f07c3ebad9d5760fc104ffc5e582b0a614f17c23c11cfbe5500c285.svg" width="22" /></a>
+    </div>
+  </div>
+  <div id='header-triangle-wrapper'>
+  </div>
+
+  <div class="modal fade left" id="mobile-nav-menu"
+    tabindex="-1" role="dialog" aria-labelledby="balance-comment-label">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <a href="/" id="mobile_menu_icon"><img alt="Menu icon e692499f34af9aa41a3010e7c3eac98f43412a7ad4cfef68a2b3e7c0e8f1cd68" src="https://d3o1t8vp7n8wsg.cloudfront.net/assets/menu_icon-e692499f34af9aa41a3010e7c3eac98f43412a7ad4cfef68a2b3e7c0e8f1cd68.svg" style="width: 36.6667vw; height: 3.75vh;" /></a>
+          <a href="/track_order">Track Order</a>
+          <hr class='navbar-line'>
+          <a href="/app">Download App</a>
+          <hr class='navbar-line'>
+          <a href="http://careers.theporter.in">Careers</a>
+          <hr class='navbar-line'>
+        </div>
+      </div>
+      <a id='close-mobile-menu'>
+        <img alt="Close mobile menu f30fb17cd6500b1f84481453a86db3670cc21332068799956cfeec56a9739bd7" src="https://d3o1t8vp7n8wsg.cloudfront.net/assets/close-mobile-menu-f30fb17cd6500b1f84481453a86db3670cc21332068799956cfeec56a9739bd7.svg" style="width: 24px; height: 24px;" />
+      </a>
+    </div>
+  </div>
+</header>
+
+
+</head>
+<body>
+  <script src="https://d3o1t8vp7n8wsg.cloudfront.net/assets/Administrators/administrators-b9ecc4329ce3919437b7aa9e769654be6e5a7feea2766dcfa69c51535bee23ed.js"></script>
+<script src="https://d3o1t8vp7n8wsg.cloudfront.net/assets/Orders/get_sms_details-a370f96b42a2a4accafe4931faa4efcba01d059c45f87ea7eed66ec7b2c8747c.js"></script>
+<section class="section section-nopadding swatch-breadcrumb-blue">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <nav class="breadcrumb">
+          <span><a href="/administrators/login_home">Home</a></span>
+          <span class="last">SMS Details</span>
+        </nav>
+      </div>
+    </div>
+  </div>
+</section> <!-- breadcrumb-->
+
+
+<section class="section section-short swatch-white-blue">
+  <div class="container">
+    <div id="flash_messages" class="text-center">
+  </div>
+    <p class="error_main" style="color:red"></p>
+    <form accept-charset="UTF-8" action="/orders/get_sms_details" id="get_sms" method="post"><div style="display:none"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="ixWgYpnYhhmv4RyII+D0L4zuWn3TPaQlXB+4Ghlo/K4=" /></div>
+        <div class='row'>
+          <div class='col-md-3'>
+            <label for="Order_ID">Order id</label>
+            <input id="order_crn" name="order_id" placeholder="Enter Order ID" type="text" />
+            <p class="error" style="color:red"></p>
+          </div>
+          <div class='col-md-3'>
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" placeholder="Enter Phone" type="text" />
+            <p class="error" style="color:red"></p>
+          </div>
+          </div>
+        <div class="row">
+          <div class='col-md-3'>
+            <label for="from_date">From date</label>
+            <input id="start_datetime" name="from_date" placeholder="From date" readonly="readonly" type="text" />
+          </div>
+          <div class='col-md-3'>
+            <label for="to_date">To date</label>
+            <input id="end_datetime" name="to_date" placeholder="To date" readonly="readonly" type="text" />
+          </div>
+          </div><div class="row">
+          <div class='col-md-3'>
+            <input name="commit" type="submit" value="Search" />
+          </div>
+        </div>
+</form>
+        <div class="row">
+          <div >
+            <table id="all_sms_table" class="table table-bordered">
+              <thead>
+              <tr>
+                <th class="" style="width: 22%">Phone</th>
+                <th class="" style="width: 33%">Message</th>
+                <th class="" style="width: 10%">Result</th>
+                <th class="" style="width: 15%">Response</th>
+                <th class="" style="width: 10%">Order/Driver ID</th>
+                <th class="" style="width: 10%">Resend</th>
+              </tr>
+              </thead>
+                  <tr id="3632157">
+                    <td>
+                      <input type="text" class="phone_number" value = "9591718645" />
+                      <p class="error" style="color:red"></p>
+                    </td>
+                    <td>Namaste! Your order CRN18484595 has been received and will be processed shortly.  Base Fare: Rs 200 plus Rs 15.0 per km. 1 hours free trip time, after which Rs 2.0 per min will be charged.  Toll and Parking extra, T&amp;C apply. Track your order at https://goo.gl/lx58pK</td>
+                    <td class="red">
+                      
+                    </td>
+                    <td></td>
+                    <td>CRN18484595</td>
+                    <input type = "hidden" id="order_id" value="CRN18484595" />
+                    <td class="text-center"> <a href="#" class="btn btn-primary btn-md resendbtn"> Resend </a> </td>
+                  </tr>
+                  <tr id="3639760">
+                    <td>
+                      <input type="text" class="phone_number" value = "9738884487" />
+                      <p class="error" style="color:red"></p>
+                    </td>
+                    <td>Customer Name:Manju  with Phone number:9591718645 has requested Tempo At 133, Uttarahalli Main Rd, Channasandra, RR Nagar, Bengaluru, Karnataka 560098, India Landmark: 133, Uttarahalli Main Rd, Channasandra, RR Nagar, Bengaluru, Karnataka 560098, India at 12:30 pm. Incase of any query call 8044104410.</td>
+                    <td class="red">
+                      
+                    </td>
+                    <td></td>
+                    <td>CRN18484595</td>
+                    <input type = "hidden" id="order_id" value="CRN18484595" />
+                    <td class="text-center"> <a href="#" class="btn btn-primary btn-md resendbtn"> Resend </a> </td>
+                  </tr>
+                  <tr id="3639761">
+                    <td>
+                      <input type="text" class="phone_number" value = "9901021952" />
+                      <p class="error" style="color:red"></p>
+                    </td>
+                    <td>Customer Name:Manju  with Phone number:9591718645 has requested Tempo At 133, Uttarahalli Main Rd, Channasandra, RR Nagar, Bengaluru, Karnataka 560098, India Landmark: 133, Uttarahalli Main Rd, Channasandra, RR Nagar, Bengaluru, Karnataka 560098, India at 12:30 pm. Incase of any query call 8044104410.</td>
+                    <td class="red">
+                      
+                    </td>
+                    <td></td>
+                    <td>CRN18484595</td>
+                    <input type = "hidden" id="order_id" value="CRN18484595" />
+                    <td class="text-center"> <a href="#" class="btn btn-primary btn-md resendbtn"> Resend </a> </td>
+                  </tr>
+                  <tr id="3639759">
+                    <td>
+                      <input type="text" class="phone_number" value = "9591718645" />
+                      <p class="error" style="color:red"></p>
+                    </td>
+                    <td>Namaste! Happy to confirm your booking with order-id CRN18484595. Driver: Raju P, Contact: 7899751098, Tata Ace, Vehicle no. KA-02-AB-1325 has been assigned to you. Thanks for choosing Porter. You can track your order at https://goo.gl/lx58pK</td>
+                    <td class="red">
+                      
+                    </td>
+                    <td></td>
+                    <td>CRN18484595</td>
+                    <input type = "hidden" id="order_id" value="CRN18484595" />
+                    <td class="text-center"> <a href="#" class="btn btn-primary btn-md resendbtn"> Resend </a> </td>
+                  </tr>
+                  <tr id="3640607">
+                    <td>
+                      <input type="text" class="phone_number" value = "9591718645" />
+                      <p class="error" style="color:red"></p>
+                    </td>
+                    <td>Namaste! Your trip CRN18484595 has been started on 13 Apr 12:11 hrs. Thank you.</td>
+                    <td class="red">
+                      
+                    </td>
+                    <td></td>
+                    <td>CRN18484595</td>
+                    <input type = "hidden" id="order_id" value="CRN18484595" />
+                    <td class="text-center"> <a href="#" class="btn btn-primary btn-md resendbtn"> Resend </a> </td>
+                  </tr>
+                  <tr id="3644806">
+                    <td>
+                      <input type="text" class="phone_number" value = "9591718645" />
+                      <p class="error" style="color:red"></p>
+                    </td>
+                    <td>Namaste! Your order CRN18484595 has been delivered. The total amount to be paid is Rs. 790.0. Download invoice: https://goo.gl/8MzhwF. For any complaints or queries, please give us a missed call on 08039513619.</td>
+                    <td class="red">
+                      
+                    </td>
+                    <td></td>
+                    <td>CRN18484595</td>
+                    <input type = "hidden" id="order_id" value="CRN18484595" />
+                    <td class="text-center"> <a href="#" class="btn btn-primary btn-md resendbtn"> Resend </a> </td>
+                  </tr>
+            </table>
+          </div>
+        </div>
+  </div>
+</section>
+<style>
+    .table tbody>tr>td {
+        vertical-align: middle;
+    }
+    .green{
+        color: green !important;
+    }
+
+    .red {
+        color: red !important;
+    }
+    .resendbtn{
+        color: #fff !important;
+    }
+
+    #flash_messages p{
+        color: red;
+     }
+</style>
+  <style>
+
+#footer {
+    width: 100%;
+    background: #181818 !important;
+    top: 100vh;
+}
+
+#footer .container {
+    position: relative;
+    background: #181818 !important;
+    top: 16.44%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+    bottom: 9.589%;
+    width: 100%;
+    margin-bottom: 2.872vh;
+}
+
+#footer .container.footer-details {
+    color: #777777;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer {
+    font-family: proxima-nova !important;
+    height: 38.9333vh;
+}
+
+#footer .section .section-short {
+}
+
+#footer-logos {
+    min-height: 73.97%;
+}
+
+#footer-logos > * {
+    display: inline-block;
+}
+
+#footer a {
+    margin-right: 1.5%;
+}
+
+.footer-logos-text {
+    display: inline-block;
+}
+
+#copyright-footer {
+    width: 100%;
+    margin-top: 3.795vh;
+}
+
+.porter-links > * {
+    display: block;
+    clear: right;
+}
+
+.porter-links a {
+    color: #777777;
+    font-size: 1.5vw;
+    width: 100%;
+}
+
+.porter-links p {
+    color: #777777;
+    font-size: 1.5vw;
+    margin-bottom: 0;
+}
+
+#social-media {
+    display: block;
+    margin-top: 3.46667vh;
+    clear: right;
+}
+
+#porter-links-contact-us {
+    display: none;
+}
+
+@media handheld, (max-width: 768px), (orientation: portrait) {
+    #footer .container {
+        top: 0% !important;
+    }
+
+    #footer-logos {
+        position: absolute;
+        top: 16.875vh;
+        left: 50%;
+        width: 75vw;
+        margin-left: -37.5vw;
+        text-align: center;
+    }
+
+    #copyright-footer .footer-logos-text {
+        font-size: 2.34375vh !important;
+    }
+
+    .porter-links {
+        position: absolute;
+        top: 10.3215vh;
+        left: 50%;
+        width: 75vw;
+        margin-left: -37.5vw;
+        text-align: center;
+    }
+
+    .porter-links > a {
+        display: inline-block !important;
+        width: auto !important;
+        font-size: 2.34375vh !important;
+    }
+
+    #porter-links-contact-us {
+        display: inline-block !important;
+    }
+
+    #social-media {
+        margin-top: 0 !important;
+    }
+
+    #porter-extra-links {
+        position: absolute;
+        top: 3.75vh;
+        left: 50%;
+        width: 75vw;
+        margin-left: -37.5vw;
+        text-align: center;
+    }
+
+    #porter-extra-links > * {
+        display: inline-block;
+        width: auto;
+        font-size: 2.34375vh;
+    }
+
+    #banner-message {
+        text-align: center;
+        background-color: #3270D8;
+        height: 9.84375vh;
+        top: 90.15625vh;
+        display: block;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        z-index: 2000;
+    }
+
+    #banner-android-app {
+        width: 85.334vw;
+        margin: 0 auto;
+        margin-top: -3vh;
+    }
+
+    #banner-android-app-div {
+        display: inline-block;
+        width: auto;
+    }
+
+    #banner_message_p {
+        color: white;
+        margin-bottom: 0px;
+        font-size: 1.8vh;
+        width: auto;
+        margin-top: 1.25vh;
+    }
+
+        #footer-logo {
+            display: none !important;
+        }
+
+        #footer-logos-text {
+            display: none !important;
+        }
+
+        .footer-app-image {
+            display: none !important;
+        }
+
+        #porter-links-porter {
+            display: none !important;
+        }
+
+        #porter-links-home {
+            display: none !important;
+        }
+
+        #porter-links-track-order {
+            display: none !important;
+        }
+
+        #porter-link-team {
+            display: none !important;
+        }
+
+        #contact_us_desktop_link {
+            display: none !important;
+        }
+
+        .cities {
+            display: none;
+        }
+
+        #banner-message {
+            display: none;
+        }
+}
+</style>
+<footer id="footer" role="contentinfo">
+    <div class="container footer-details">
+      <div id='footer-logos'>
+          <a href="/" id="footer-logo"><img alt="Logo b2fb1e7e653a7450a114feaefc124e21d64834c376325d5243840a16b522ebc4" src="https://d3o1t8vp7n8wsg.cloudfront.net/assets/logo-b2fb1e7e653a7450a114feaefc124e21d64834c376325d5243840a16b522ebc4.svg" /></a>
+          <p id="footer-logos-text">Trucks for every need</p>
+        <div id='social-media'>
+          <a href="https://www.facebook.com/theporterin" target="_blank"><img alt="Facebook 8de0f17b2957da08262c4a96b39ec8614577d318bc9b2bb16e4a9843badfac0e" src="https://d3o1t8vp7n8wsg.cloudfront.net/assets/facebook-8de0f17b2957da08262c4a96b39ec8614577d318bc9b2bb16e4a9843badfac0e.svg" /></a>
+          <a href="https://www.twitter.com/theporterin" target="_blank"><img alt="Twitter abc420709524b400746250d1e8598880d002e555b27749a380b69d126dea6ef8" src="https://d3o1t8vp7n8wsg.cloudfront.net/assets/twitter-abc420709524b400746250d1e8598880d002e555b27749a380b69d126dea6ef8.svg" /></a>
+          <a href="https://www.linkedin.com/company/theporter-in" target="_blank"><img alt="Linkedin 5f7d2ce457a35cdcfdca0a3c7ba09141eda6504654b60f8309b62710bd01b35d" src="https://d3o1t8vp7n8wsg.cloudfront.net/assets/linkedin-5f7d2ce457a35cdcfdca0a3c7ba09141eda6504654b60f8309b62710bd01b35d.svg" /></a>
+            <a class="footer-app-image" href="/android_app" id="footer-google-play" target="_blank"><img alt="Google play ccce4e3cb3a58ad218a01f8da4ab26a6a835901ca406dc792b76af29fde56755" src="https://d3o1t8vp7n8wsg.cloudfront.net/assets/Google Play-ccce4e3cb3a58ad218a01f8da4ab26a6a835901ca406dc792b76af29fde56755.svg" /></a>
+            <a class="footer-app-image" href="/iphone_app" id="footer-ios-itunes" target="_blank"><img alt="Ios badge footer 32022d144947e25b56c484246cfb006fed32031696bcc7bda8d02a0da5edbdee" src="https://d3o1t8vp7n8wsg.cloudfront.net/assets/ios_badge_footer-32022d144947e25b56c484246cfb006fed32031696bcc7bda8d02a0da5edbdee.svg" /></a>
+        </div>
+        <div id='copyright-footer'>
+          <p class="footer-logos-text"><img alt="Copyright 1e6ef6ce35e807c70fc9901befcd98754e0676f44000d970a743763bc9577b65" height="12px" src="https://d3o1t8vp7n8wsg.cloudfront.net/assets/copyright-1e6ef6ce35e807c70fc9901befcd98754e0676f44000d970a743763bc9577b65.svg" width="12px" /> 2015 - 2016   Resfeber Labs Pvt. Ltd.  All rights reserved.</p>
+        </div>
+      </div>
+      <div class='porter-links'>
+          <a href="/" id="porter-links-home">Home</a>
+        <a href="/about_us" id="porter-links-about-us">About</a>
+          <a href="/track_order" id="porter-links-track-order">Track order</a>
+        <a href="http://careers.theporter.in" id="porter-links-careers">Careers</a>
+        <a href="/cashback_scheme" id="porter-links-cashback-scheme">Cashback Scheme</a>
+        <a href="/contact_us" id="porter-links-contact-us">Contact us</a>
+      </div>
+        <div class='porter-links cities'>
+          <p>Cities</p>
+          <p>Mumbai</p>
+          <p>Delhi NCR</p>
+          <p>Bangalore</p>
+          <p>Chennai</p>
+          <p>Hyderabad</p>
+        </div>
+      <div class='porter-links' id='porter-extra-links'>
+        <a href="/privacy_policy">Privacy policy</a>
+        <a href="/terms_of_service">Terms of service</a>
+          <a href="/contact_us" id="contact_us_desktop_link">Contact us</a>
+      </div>
+    </div>
+  </footer>
+  <script>
+  </script>
+
+</body>
+</html>
